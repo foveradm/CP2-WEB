@@ -2,7 +2,6 @@
 .container-page
 {
     width: 55%;
-    height: 100vh;
     margin: 0 auto;
 }
 
@@ -40,17 +39,23 @@
 {
     display: flex;
     align-items: center;
-    height: 90%;
+    height: 50px;
     color: white;
     border-bottom: solid 5px #FFCD04;
     cursor: pointer;
     transition: 0.2s ease-in-out;
     padding: 0 7px;
+    box-sizing: border-box;
 }
 
-.container-item:hover, .container-item:active
+.container-item:hover, .active
 {
     background-color: #FFCD04;
+}
+
+.active
+{
+    border-bottom: none;
 }
 
 .container-search
@@ -76,6 +81,17 @@
     outline: none;
 }
 
+.container-footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: #8FA819;
+    color: white;
+    margin-top: 30px;
+}
+
 /* Items da pagina */
 .conatiner-content
 {
@@ -91,12 +107,6 @@
     width: 40%;
 }
 
-.container-right
-{
-    width: 60%;
-    background-color: purple;
-}
-
 .title
 {
     color: #8FA819;
@@ -107,10 +117,51 @@
 .sub-title
 {
     font-size: 15px;
+    font-weight: bold;
     color: #3F71B6;
 }
 
 .image-news
 {
-    margin-top: 5px;
+    margin: 5px 0;
+}
+
+.text-description
+{
+    margin-top: 20px;
+}
+
+.container-mission
+{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: solid 3px #8FA819;
+}
+
+.list-options
+{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.container-right
+{
+    width: 60%;
+    padding-top: 30px;
+}
+
+.container-right .title
+{
+    margin-bottom: 10px;
+}
+
+.container-services
+{
+    margin-top: 20px;
+}
+
+.container-image-service
+{
+    display: flex;
+    align-items: flex-end;
 }
