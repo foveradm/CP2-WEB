@@ -1,7 +1,4 @@
-
-# CP2-WEB
-
-# CP2Web
+# Checkpoint 2 de Web
 
 Objetivo:
 
