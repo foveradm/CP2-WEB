@@ -1,5 +1,8 @@
 # Checkpoint 2 de Web
 
+## Link de acesso ao github
+https://github.com/foveradm/CP2-WEB
+
 Objetivo:
 
 Construir um conjunto de páginas utilizando HTML/CSS dentro dos padrões estabelecidos pelo W3C.
