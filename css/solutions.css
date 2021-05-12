@@ -108,3 +108,16 @@ border-bottom: none;
     font-size: 17px;
     margin-left: 10px;
 }
+.titulo-info
+{
+    color: #8FA819;
+    padding: 25px;
+    font-weight: bold;
+}
+.lorem
+{
+    color: #3F71B6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+}
