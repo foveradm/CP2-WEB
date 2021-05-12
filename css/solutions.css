@@ -1,0 +1,110 @@
+/* Items comuns */
+.container-page
+{
+    width: 55%;
+    margin: 0 auto;
+}
+
+.banner-header
+{
+    width: 100%;
+}
+
+.container-menu
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8FA819;
+    margin-top: -4px;
+    height: 50px;
+    width: 100%;
+}
+
+.container-options
+{
+    width: 60%;
+}
+
+.container-options
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    height: 50px;
+}
+
+.container-item
+{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    color: white;
+    border-bottom: solid 5px #FFCD04;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    padding: 0 7px;
+    box-sizing: border-box;
+}
+
+.container-item:hover, .active
+{
+background-color: #FFCD04;
+}
+
+.active
+{
+border-bottom: none;
+}
+
+.container-search
+{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 50px;
+    background-color: #F3F6E8;
+}
+
+.icon-search
+{
+    padding: 0 20px;
+    color: #8FA819;
+}
+
+.input-search
+{
+    height: 46px;
+    width: 100%;
+    border: solid 1px #8FA819;
+    outline: none;
+}
+
+/* Items da pagina */
+.conatiner-content
+{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.container-left
+{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 40%;
+}
+
+.container-right
+{
+    width: 60%;
+    background-color: purple;
+}
+
+.title
+{
+    color: #8FA819;
+    font-size: 17px;
+    margin-left: 10px;
+}
