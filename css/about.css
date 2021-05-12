@@ -13,28 +13,9 @@
     width: 40%;
 }
 
-.title
-{
-    color: #8FA819;
-    font-size: 17px;
-    margin-left: 10px;
-}
-
-.sub-title
-{
-    font-size: 15px;
-    font-weight: bold;
-    color: #3F71B6;
-}
-
 .image-news
 {
     margin: 5px 0;
-}
-
-.text-description
-{
-    margin-top: 20px;
 }
 
 .container-mission
